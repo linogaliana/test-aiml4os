@@ -33,7 +33,7 @@ jobs:
 
       # Step 4: Render Quarto in uv virtual environment (HTML)
       - name: Render
-        run: uv run quarto render
+        run: uv run quarto render --to html
 
       # Step 4b: Render Quarto in uv virtual environment (HTML)
       - name: Render in ipynb
